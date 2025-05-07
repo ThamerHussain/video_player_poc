@@ -19,7 +19,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.7.0
+  sdk: ^3.5.0
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -39,14 +39,18 @@ dependencies:
   cupertino_icons: ^1.0.8
   video_player: ^2.9.3
   flutter_svg: ^2.0.17
-  appinio_video_player: ^1.2.2
-  goat_player: ^0.0.5
-  river_player: ^0.1.4
+  # appinio_video_player: ^1.2.2
+  # goat_player: ^0.0.5
+  # river_player: ^0.1.4
   better_player_enhanced: ^0.0.5
   flutter_pip_player: ^0.1.0
   hooks_riverpod: ^2.6.1
   flutter_hooks: ^0.21.2
   pip: ^0.0.1
+  path_provider_tizen: ^2.2.0
+  package_info_plus_tizen: ^1.0.4
+  video_player_tizen: ^2.5.4
+  video_player_avplay: ^0.5.16
 
 dev_dependencies:
   flutter_test:
